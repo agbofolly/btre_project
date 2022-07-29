@@ -12,7 +12,7 @@ def  index(request):
         'listings': listings,
         'state_choices': state_choices,
         'bedroom_choices': bedroom_choices, 
-        'price_choices': price_choices     
+        'price_choices': price_choices        
     }
 
     return render(request,'pages/index.html', context)

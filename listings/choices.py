@@ -23,7 +23,7 @@ price_choices = {
   '900000':'$900,000', 
   '1000000':'$1M+',
 }
-
+ 
 state_choices = { 
     'AK': 'Alaska', 
     'AL': 'Alabama', 
